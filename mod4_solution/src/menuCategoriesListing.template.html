@@ -1,0 +1,9 @@
+<h3>Our speciality: </h3>
+<ul>
+  <li ng-repeat="item in $ctrl.categoryitems">
+      <a ui-sref="items({categoryShortName : item.short_name})">
+        <b>{{item.name}}</b>
+        <br><br>
+      </a>
+  </li>
+</ul>

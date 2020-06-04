@@ -1,0 +1,8 @@
+<h3>Here are your menu items for selected category: </h3>
+<ul>
+  <li ng-repeat="item in $ctrl.menuitems">
+      <span><b>{{item.name}}</b> ({{item.description}}) </span><br/>
+      <span>Price for small <b>{{item.price_small}}</b> |  Price for large <b>{{item.price_large}}</b></span>
+      <br><br>
+  </li>
+</ul>
